@@ -9,8 +9,8 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        final int arrayInitLen = 10;
-        int[] arrayInit = new int[arrayInitLen];
+        final int ARRAY_LEN = 10;
+        int[] arrayInit = new int[ARRAY_LEN];
         Random rand = new Random();
         for (int i = 0; i < arrayInit.length; i++) {
             arrayInit[i] = rand.nextInt(50);
